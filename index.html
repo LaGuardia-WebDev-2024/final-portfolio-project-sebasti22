@@ -1,111 +1,138 @@
-<!-- Final Project
+<!--Unit 4 Project
 Requirements
-[  ] Customized HTML Page #1
-[  ] Customized HTML Page #2 
-[  ] Customized HTML Page #3
-[  ] Customized HTML Page #4
+[ ] Three Distinct CSS font-family Declarations
+[ ] One Google Font or Uploaded Font
+[ ] An Unordered **or** Ordered List (<ul> or <ol>)
+[ ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Google Font
-[ no ] Feature 2 - Include jQuery
-[ no ] Feature 3 - Embed Code from Spotify/Google Docs/YouTube
-[ no ] Feature 4 - Customized HTML Page #5
+[ no ] Feature 1 - Include :hover Effect 
+[ no ] Feature 2 - Change the <li> markers
+[ no ] Feature 3 - Change the Favicon
+[ no ] Feature 4 - Include Hand Drawn Border
+[ no ] Feature 5 - Use background-blend-mode: overlay
 -->
-
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Final Portfolio Project</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <style>
-      /* Styling Only Related To THIS Page */
-      /*~~~~~ Taken From:
-      https://www.w3schools.com/howto/howto_css_parallax.asp*/
-      .parallax {
-        /* The image used */
-        background-image: url("CS_Ed_Week_2025.jpg");
 
-        /* Set a specific height */
-        min-height: 500px;
+<head>
+  
 
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .textblock {
-        min-height: 500px;
-        background-color: black;
-        color: white;
-      }
-      .parent-flex {
-        display: flex;
-      }
-      .child-flex {
-        background-color: green;
-        margin: 30px;
-        padding: 10px;
-        text-align: justify;
-      }
-      .para-1{
-        display: flex;
-        align-items: center;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- ⬆⬆⬆⬆ Nav Bar -->
-    <ul>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-    </ul>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
 
-    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2025-2026</h1>
-    <div class="parallax"></div>
 
-    <div class="textblock parent-flex">
-      <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
-      <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Niconne&display=swap" rel="stylesheet">
+
+
+
+  <title>Unit 4 Project</title>
+  <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+li::marker {
+  content: "📷";
+  color: rgb(17, 10, 11);
+  font-size: 25px;
+}
+
+
+
+body{cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>") 16 0,auto; /*!emojicursor.app*/}
+  </style>
+  
+</head>
+<body>
+<div id="hero-section" class="section blue-bg">
+        <h1 
+        style="font-family:MingLiU_HKSCS-ExtB; font-size:50px;:rgb(255, 244, 244)">My Favorite Music Videos Of All Time! <br> ‧₊˚♪ 𝄞₊˚⊹ </h1>
+  
+
+
+
     </div>
-  </body>
+    <div id="content-section" class="section green-bg">
+        <h2  style="font-family:MingLiU_HKSCS-ExtB; font-size:50px;:rgb(255, 244, 244)">Amor Prohibido</h2>
+    </div>
+    <div id="final-section" class="section red-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtB; font-size:50px;">Break Free</h2>
+     
+      
+        
+    </div>
+    <div id="next-section" class="section yellow-bg">
+        <h2 style= "font-family:MingLiU_HKSCS-ExtB;font-size:50px;:rgb(255, 244, 244)">Remember The Time</h2>
+
+        </div>
+    <div id="hi-section" class="section orange-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtBs; font-size:50px;">Alejandro</h2>
+        </div>
+
+         <div id="hello-section" class="section purple-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtB; font-size:50px;">Slave 4 U</h2>
+        </div>
+     <div id="nope-section" class="section grey-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtB; font-size:50px;">More Than A Woman</h2>
+        </div>
+
+         <div id="yes-section" class="section cool-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtBs; font-size:50px;">Boy (I Need You)</h2>
+        </div>
+
+        <div id="tada-section" class="section amazing-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtB; font-size:50px;">One Of Your Girls</h2>
+        </div>
+
+         <div id="boy-section" class="section heron-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtB; font-size:50px;">Headphones On</h2>
+        </div>
+
+        <div id="cloud-section" class="section ranking-bg">
+        <h2 style="font-family:MingLiU_HKSCS-ExtB;font-size:50px;">Rankings</h2>
+
+        <h3 style="font-family:'Times New Roman', Times, serif;font-size:30px;"> Videos: </h3>
+
+        <ul
+        
+        style="font-family:MingLiU_HKSCS-ExtB;font-size:20px;">
+          <li>
+            More Than A Woman 
+          </li>
+          <li>
+            One Of Your Girls
+          </li>
+          <li>
+            Slave 4 U
+          </li>
+          <li>
+            Alejandro
+          </li>
+      <li>
+        Remember The Time
+      </li>
+      <li>
+        Amor Prohibido
+      </li>
+      <li>
+        Headphones On
+      </li>
+      <li>
+        Break Free
+      </li>
+      <li>
+        Boy I Need You
+      </li>
+        </div>
+      
+        
+    
+
+
+ <script src="script.js"></script>
+</body>
 </html>

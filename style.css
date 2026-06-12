@@ -1,44 +1,70 @@
-/* Styling Only Related To ALL Pages */
-
 body {
-  padding-top: 30px;
-  margin-left: 0px;
-}
-/* ⬆⬆⬆⬆ Nav Bar Styling 
-~~~~~ Taken From: 
-https://www.w3schools.com/css/css_navbar_horizontal.asp */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
+    margin: 0;
+    font-family: MingLiU_HKSCS-ExtB;
 }
 
-li {
-  float: left;
+.section {
+    min-height: 100vh; /* Ensure sections are tall enough to scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.blue-bg {
+    Background-size:cover;
+    background-image:url(https://i.pinimg.com/originals/b2/7d/67/b27d67b1bd85db66f592131a0afca91d.gif)
 }
 
-li a:hover:not(.active) {
-  background-color: orange;
+
+.green-bg {
+    background-size:cover;
+    background-image:url(https://www.icegif.com/wp-content/uploads/2022/08/icegif-301.gif)
 }
 
-.active {
-  background-color: red;
+.red-bg {
+    background-size:cover;
+    background-image:url(https://i.gifer.com/YWzu.gif)
 }
 
-h1 {
-  width: 100%;
+.yellow-bg {
+    background-size:cover;
+    background-image:url(https://i.gifer.com/B0U.gif)
+}
+    .orange-bg {
+    background-size:cover;
+    background-image:url(https://24.media.tumblr.com/tumblr_lohcmxkSMM1qd4ktoo1_500.gif)
+}
+ .purple-bg {
+    background-size:cover;
+    background-image:url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZnBzODk2bjBjMGthbzl2MWlhcndlNWdjZzdwcWN0YWI0eWZyd2l5OSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6MbpII3IjUTymmaI/giphy.gif)
+ }
+    
+    .grey-bg {
+    background-size:cover;
+    background-image:url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXE0M29zZm10ajZldnV3bTVobmw2Z2o3dWV3dGU0ZnEwMGpsMGZrbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2Jeh0tlXj5VkREd2/giphy.gif)
+    
+}
+ .cool-bg {
+    background-size:cover;
+    background-image:url(https://i.ytimg.com/vi/E9rk1e1T_po/maxresdefault.jpg)
+    
+}
+.amazing-bg {
+    background-size:cover;
+    background-image:url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTJwcGQyaGZieGE1cTE1YXhoZG80aWFjdWNwMHdlazRhYjVvZGdqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zOiePlIsvEbg5oJkOk/giphy.gif)
+    
+}
+.heron-bg {
+    background-size:cover;
+    background-image:url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXRnN2l3YzB2N2F6Y2N2bzJjYTFjMHFkOHRoajNzdjBybzM5b2ZubCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/aTdvvuf9uuZzdn4jSj/giphy.gif)
+    
+}
+.ranking-bg {
+    background-size:cover;
+    background-image:url(https://i.pinimg.com/originals/30/c3/fe/30c3fe6bf9c9830542dde88175ab8712.gif)
+    
 }
